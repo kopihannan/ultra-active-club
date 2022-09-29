@@ -1,0 +1,23 @@
+.main-working{
+    padding: 0px 20px;
+    position: sticky;
+    top: 0px;
+}
+.working-container1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: azure;
+    margin-bottom: 5px;
+}
+.working-container2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: azure;
+    margin-bottom: 10px;
+}

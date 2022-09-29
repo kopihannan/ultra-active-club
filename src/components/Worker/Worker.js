@@ -1,7 +1,7 @@
 import React from 'react';
 import './Worker.css'
 const Worker = (props) => {
-    console.log(props);
+    const {addList, worker} = props;
     const {name, image, description, age,duration } = props.worker;
     return (
         <div className='worker-details'>
@@ -12,7 +12,7 @@ const Worker = (props) => {
                 <p><small>Age: {age}</small></p>
                 <p><small>Time Spent: {duration}</small></p>
             </div>
-            <button>Add Worker</button>
+            <button onClick={()=>addList(worker)}>Add Worker</button>
         </div>
     );
 };
