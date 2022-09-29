@@ -1,0 +1,9 @@
+.factory-container{
+    display: grid;
+    grid-template-columns: 4fr 1.5fr;
+}
+.worker-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

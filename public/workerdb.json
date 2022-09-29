@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Tom Pitter",
+    "description": "A factory, manufacturing plant or a production plant is an industrial facility",
+    "duration": 20,
+    "age" : 35,
+    "image": "https://media.istockphoto.com/photos/portrait-of-a-young-woman-driving-a-forklift-in-a-warehouse-picture-id1297833715?b=1&k=20&m=1297833715&s=170667a&w=0&h=rts2P4Iy0pDyaFwG-UhEcbezQICks6vzrBdUXH2V054="
+  },
+  {
+    "id": "2",
+    "name": "Jimmy Nessam",
+    "description": "A factory, manufacturing plant or a production plant is an industrial facility",
+    "duration": 10,
+    "age" : 22,
+    "image": "https://i.pinimg.com/originals/f6/24/7e/f6247ec3c47bb2df24bea3590a46190f.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Henry Nichole",
+    "description": "A factory, manufacturing plant or a production plant is an industrial facility",
+    "duration": 46,
+    "age" : 23,
+    "image": "https://media.istockphoto.com/photos/portrait-of-a-factory-engineer-picture-id1095556292?k=20&m=1095556292&s=612x612&w=0&h=Qh1mxeTubxFnUKfrAB2cEQXrdtKhQWcjX0wdjqY2J8g="
+  },
+  {
+    "id": "4",
+    "name": "Bear Gryles",
+    "description": "A factory, manufacturing plant or a production plant is an industrial facility",
+    "duration": 34,
+    "age" : 22,
+    "image": "https://www.fairobserver.com/wp-content/uploads/2017/08/Factory-workers-America-news-manufacturing-jobs-world-news-1.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Mart Henry",
+    "description": "A factory, manufacturing plant or a production plant is an industrial facility",
+    "duration": 82,
+    "age" : 25,
+    "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2021/11/Factory_Worker_in_Mask.618153be87ed0.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+  },
+  {
+    "id": "6",
+    "name": "Alister Cook",
+    "description": "A factory, manufacturing plant or a production plant is an industrial facility",
+    "duration": 64,
+    "age" : 24,
+    "image": "https://cdn.shrm.org/image/upload/c_crop,h_3778,w_6720,x_0,y_0/c_fit,f_auto,q_auto,w_767/v1/Global%20HR/Indian_female_worker1m_octdix?databtoa=eyIxNng5Ijp7IngiOjAsInkiOjAsIngyIjo2NzIwLCJ5MiI6Mzc3OCwidyI6NjcyMCwiaCI6Mzc3OH19"
+  },
+  {
+    "id": "7",
+    "name": "Tim Salt",
+    "description": "A factory, manufacturing plant or a production plant is an industrial facility",
+    "duration": 58,
+    "age" : 26,
+    "image": "https://thepinoyofw.com/wp-content/uploads/2021/04/factory-worker-.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Ben Cutting",
+    "description": "A factory, manufacturing plant or a production plant is an industrial facility",
+    "duration": 54,
+    "age" : 21,
+    "image": "https://bdtechtalks.com/wp-content/uploads/2019/04/Industry-4-mobile-cloud-IoT.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Nathan Macculaum",
+    "description": "A factory, manufacturing plant or a production plant is an industrial facility",
+    "duration": 67,
+    "age" : 30,
+    "image": "https://media.istockphoto.com/photos/portrait-of-american-african-engineering-woman-is-working-in-heavy-picture-id1318816118?b=1&k=20&m=1318816118&s=170667a&w=0&h=V4iW9SeocPIih77pIg-oUTEh830ddWIw1PG1SnSM2IY="
+  }
+]

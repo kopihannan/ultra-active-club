@@ -1,0 +1,9 @@
+.nav-logo{
+    display: flex;
+    align-items: center;
+    color: #14a099;
+    justify-content: center;
+}
+.logo{
+    padding-left: 10px;
+}
