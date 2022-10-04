@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
+
 import Worker from '../Worker/Worker';
 import Working from '../Working/Working';
 import './Factory.css'
 const Factory = () => {
     const [workers, setWorkers] = useState([]);
     const [add, setAdd] = useState([]);
+
     useEffect(()=>{
         fetch('workerdb.json')
         .then(rel => rel.json())
@@ -24,8 +26,9 @@ const Factory = () => {
                 }
             </div>
             <div className='summary'>
-                <Working></Working>
-                <p>{add.length}</p>
+ 
+                <Working add={add}></Working>
+
             </div>
         </div>
     );

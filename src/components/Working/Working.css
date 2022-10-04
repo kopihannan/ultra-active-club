@@ -21,3 +21,10 @@
     background-color: azure;
     margin-bottom: 10px;
 }
+
+.break-time{
+    display: flex;
+}
+.break-time button{
+    margin: 5px;
+}
