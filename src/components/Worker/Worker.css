@@ -1,9 +1,9 @@
 .worker-details{
-    border: 2px solid gray;
     text-align: center;
     padding: 15px 10px;
     border-radius: 10px;
-    margin: 10px 0px;
+    margin: 10px 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .worker-details img{
     width: 280px;

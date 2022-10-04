@@ -9,14 +9,15 @@
 }
 .summary{
     text-align: center;
-    border: 2px solid #acacac;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
+    margin: 10px 5px;
 }
 @media only screen and (max-width: 600px){
     .factory-container{
-        background-color: violet;
-        display: block;
+        display: flex;
         width: 600px;
+        flex-direction: column-reverse;
     }
     .worker-list{
         display: block;
