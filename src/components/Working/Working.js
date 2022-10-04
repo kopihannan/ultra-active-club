@@ -11,21 +11,25 @@ const Working = ({ add }) => {
 
     }
     const [breaks, setBreaks] = useState([]);
-    localStorage.setItem("min", breaks)
-    const minuteString = localStorage.getItem('min');
+
+
+
+    const minuteString = localStorage.getItem("min", breaks);
     const minute = parseFloat(minuteString);
 
+    const addBreakBtn = (breaks) => {
 
-    const addBreakBtn = (event) => {
-        setBreaks(event)
+        setBreaks(breaks)
+        localStorage.setItem("min", breaks)
+
     }
-    
-    const workingActivity=()=>{
+
+    const workingActivity = () => {
         Swal.fire(
             'Good job!',
             'You can do the job beautifully!',
             'success'
-          )
+        )
     }
 
     return (
@@ -49,7 +53,7 @@ const Working = ({ add }) => {
                 <h3>Breaking Time: </h3>
                 <h3>{minute} <span>Min</span> </h3>
             </div>
-           <button onClick={workingActivity}>Working Activity</button>
+            <button onClick={workingActivity}>Working Activity</button>
         </div>
     );
 };
