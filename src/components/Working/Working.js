@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import './Working.css'
+import './Working.css';
+import Swal from 'sweetalert2'
+
+
 const Working = ({ add }) => {
 
     let workingTime = 0;
@@ -16,11 +19,13 @@ const Working = ({ add }) => {
     const addBreakBtn = (event) => {
         setBreaks(event)
     }
-
-
-    const calculateBtn =()=>{
-        const totalTime = workingTime + minute;
-        console.log(totalTime);
+    
+    const workingActivity=()=>{
+        Swal.fire(
+            'Good job!',
+            'You can do the job beautifully!',
+            'success'
+          )
     }
 
     return (
@@ -44,7 +49,7 @@ const Working = ({ add }) => {
                 <h3>Breaking Time: </h3>
                 <h3>{minute} <span>Min</span> </h3>
             </div>
-            <button onClick={calculateBtn}>Calculate Total</button>
+           <button onClick={workingActivity}>Working Activity</button>
         </div>
     );
 };
