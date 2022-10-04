@@ -5,7 +5,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <div>
+        <div className='main-conatiner'>
             <div className='nav-logo'>
                 <FontAwesomeIcon icon={faBuilding} size="2xl" />
                 <h1 className='logo'>Factory Life</h1>
