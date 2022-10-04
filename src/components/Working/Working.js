@@ -9,13 +9,20 @@ const Working = ({ add }) => {
     }
     const [breaks, setBreaks] = useState([]);
     localStorage.setItem("min", breaks)
-    const minute = localStorage.getItem('min');
-    console.log(minute);
+    const minuteString = localStorage.getItem('min');
+    const minute = parseFloat(minuteString);
+
 
     const addBreakBtn = (event) => {
         setBreaks(event)
-
     }
+
+
+    const calculateBtn =()=>{
+        const totalTime = workingTime + minute;
+        console.log(totalTime);
+    }
+
     return (
         <div className='main-working'>
             <h2>Working Summary</h2>
@@ -37,7 +44,7 @@ const Working = ({ add }) => {
                 <h3>Breaking Time: </h3>
                 <h3>{minute} <span>Min</span> </h3>
             </div>
-            <button>Calculate Total</button>
+            <button onClick={calculateBtn}>Calculate Total</button>
         </div>
     );
 };
