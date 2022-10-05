@@ -2,14 +2,14 @@ import React from 'react';
 
 const Question = () => {
     return (
-        <div className='container my-5'>
+        <div className='container my-5 bg-light'>
             <h2 className='text-center my-4'>Question & Answer</h2>
             <hr />
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
                         <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            how does react js work
+                            <h4>how does react js work</h4>
                         </button>
                     </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -24,7 +24,7 @@ const Question = () => {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingTwo">
                         <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            Difference between props and state:
+                            <h4>Difference between props and state:</h4>
                         </button>
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -42,7 +42,7 @@ const Question = () => {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingThree">
                         <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            How useEffect works in ReactJS ?
+                            <h4>How useEffect works in ReactJS ?</h4>
                         </button>
                     </h2>
                     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
