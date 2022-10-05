@@ -17,7 +17,7 @@ const Factory = () => {
         setAdd(newAdd)
     }
     return (
-        <div className='factory-container'>
+        <div className='factory-container mt-3'>
             <div className='worker-list'>
                 {
                     workers.map(worker => <Worker 

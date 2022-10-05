@@ -6,8 +6,8 @@ const Worker = (props) => {
     return (
         <div className='worker-details'>
             <img src={image} alt="" />
-            <h2>{name}</h2>
-            <p><small>{description}</small></p>
+            <h4 className='pt-1 fw-bolder'>{name}</h4>
+            <p className='p-2'><small>{description}</small></p>
             <div className='age-time'>
                 <p><small>Age: {age}</small></p>
                 <p><small>Time Spent: {duration}</small></p>

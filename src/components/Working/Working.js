@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Working.css';
 import Swal from 'sweetalert2'
+import Profile from '../Profile/Profile';
 
 
 const Working = ({ add }) => {
@@ -34,9 +35,9 @@ const Working = ({ add }) => {
 
     return (
         <div className='main-working'>
-            <h2>Working Summary</h2>
+            <Profile></Profile>
             <hr />
-            <h3>Add a Break</h3>
+            <h5 className='fw-bolder'>Working Break</h5>
 
             <div className='break-time'>
                 <button onClick={(e) => addBreakBtn(e.target.innerText)}>10</button>
@@ -45,13 +46,13 @@ const Working = ({ add }) => {
                 <button onClick={(e) => addBreakBtn(e.target.innerText)}>40</button>
                 <button onClick={(e) => addBreakBtn(e.target.innerText)}>50</button>
             </div>
-            <div className='working-container1'>
-                <h3>Working Time: </h3>
-                <h3>{workingTime} <span>Min</span> </h3>
+            <div className='working-container1 my-3 py-3'>
+                <h6 className='fw-semibold'>Working Time: </h6>
+                <h6 className='fw-semibold'>{workingTime} <span>Min</span> </h6>
             </div>
-            <div className='working-container2'>
-                <h3>Breaking Time: </h3>
-                <h3>{minute} <span>Min</span> </h3>
+            <div className='working-container2 mb-3 py-3'>
+                <h6 className='fw-semibold'>Breaking Time: </h6>
+                <h6 className='fw-semibold'>{minute} <span>Min</span> </h6>
             </div>
             <button onClick={workingActivity}>Working Activity</button>
         </div>

@@ -17,7 +17,7 @@
     .factory-container{
         display: flex;
         width: 600px;
-        flex-direction: column-reverse;
+        flex-direction: column-reverse ;
     }
     .worker-list{
         display: block;
