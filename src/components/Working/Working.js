@@ -34,17 +34,17 @@ const Working = ({ add }) => {
     }
 
     return (
-        <div className='main-working'>
+        <div className='main-working mb-3'>
             <Profile></Profile>
             <hr />
             <h5 className='fw-bolder'>Working Break</h5>
 
-            <div className='break-time'>
-                <button onClick={(e) => addBreakBtn(e.target.innerText)}>10</button>
-                <button onClick={(e) => addBreakBtn(e.target.innerText)}>20</button>
-                <button onClick={(e) => addBreakBtn(e.target.innerText)}>30</button>
-                <button onClick={(e) => addBreakBtn(e.target.innerText)}>40</button>
-                <button onClick={(e) => addBreakBtn(e.target.innerText)}>50</button>
+            <div className='break-time d-flex justify-content-evenly my-3'>
+                <button className='btn btn-danger' onClick={(e) => addBreakBtn(e.target.innerText)}>10</button>
+                <button className='btn btn-danger' onClick={(e) => addBreakBtn(e.target.innerText)}>20</button>
+                <button  className='btn btn-danger' onClick={(e) => addBreakBtn(e.target.innerText)}>30</button>
+                <button  className='btn btn-danger' onClick={(e) => addBreakBtn(e.target.innerText)}>40</button>
+                <button className='btn btn-danger' onClick={(e) => addBreakBtn(e.target.innerText)}>50</button>
             </div>
             <div className='working-container1 my-3 py-3'>
                 <h6 className='fw-semibold'>Working Time: </h6>
@@ -54,7 +54,7 @@ const Working = ({ add }) => {
                 <h6 className='fw-semibold'>Breaking Time: </h6>
                 <h6 className='fw-semibold'>{minute} <span>Min</span> </h6>
             </div>
-            <button onClick={workingActivity}>Working Activity</button>
+            <button className='btn btn-success' onClick={workingActivity}>Working Activity</button>
         </div>
     );
 };

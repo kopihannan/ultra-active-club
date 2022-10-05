@@ -12,7 +12,7 @@ const Worker = (props) => {
                 <p><small>Age: {age}</small></p>
                 <p><small>Time Spent: {duration}</small></p>
             </div>
-            <button onClick={()=>addList(worker)}>Add Worker</button>
+            <button className='btn btn-success' onClick={()=>addList(worker)}>Add Worker</button>
         </div>
     );
 };

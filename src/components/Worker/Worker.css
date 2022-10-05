@@ -18,26 +18,4 @@
     margin-top: -20px;
     padding: 0px 15px;
 }
-button{
-    width: 100%;
-    border: none;
-    border-radius: 6px;
-    background-color: #0fb964;
-    color: white;
-    padding: 8px 0;
-    cursor: pointer;
-    transition: 0.5s;
-    font-size: 14px;
-    font-weight: 500;
-}
-button:hover{
-    width: 100%;
-    border: none;
-    border-radius: 6px;
-    background-color: #03723a;
-    color: white;
-    padding: 8px 0;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 500;
-}
+

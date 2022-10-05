@@ -19,12 +19,12 @@ const Profile = () => {
                     <p className='fw-bolder'>Weight</p>
                 </div>
                 <div>
-                    <h4 className='fw-bold'>53 kg</h4>
-                    <p className='fw-bolder'>Weight</p>
+                    <h4 className='fw-bold'>5.5</h4>
+                    <p className='fw-bolder'>Height</p>
                 </div>
                 <div>
-                    <h4 className='fw-bold'>53 kg</h4>
-                    <p className='fw-bolder'>Weight</p>
+                    <h4 className='fw-bold'>25 yrs</h4>
+                    <p className='fw-bolder'>Age</p>
                 </div>
             </div>
         </div>
